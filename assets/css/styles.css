@@ -288,3 +288,8 @@ body.dark-theme{
   transform: rotate(-30deg);
 }
 
+/* Show menu */
+.show-menu{
+  top: 0;
+}
+
