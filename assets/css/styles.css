@@ -229,3 +229,16 @@ body.dark-theme{
   font-size: 1.25rem;
   cursor: pointer;
 }
+
+@media screen and (max-width: 767px){
+  .nav__menu{
+    position: fixed;
+    left: 0;
+    top: -100%;
+    background-color: var(--body-color);
+    width: 100%;
+    box-shadow: 0 8px 20px hsla(19, 64%, 24%, .1);
+    padding-block: 3.5rem;
+    transition: top .4s;
+  }  
+}
